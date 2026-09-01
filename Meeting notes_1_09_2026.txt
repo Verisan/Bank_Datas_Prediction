@@ -1,0 +1,4 @@
+Data preporcessing and EDA --> Hasan
+Hangi değişkeni bağımlı değişken yapcağımızı belirleyeceğiz (poutcome, Y olabilecekler arasında)
+
+Proje ve eksik ödev için son yükleme tarihi eylül 15

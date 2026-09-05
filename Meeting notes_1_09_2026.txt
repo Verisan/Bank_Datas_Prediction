@@ -2,3 +2,22 @@ Data preporcessing and EDA --> Hasan
 Hangi değişkeni bağımlı değişken yapcağımızı belirleyeceğiz (poutcome, Y olabilecekler arasında)
 
 Proje ve eksik ödev için son yükleme tarihi eylül 15
+
+
+Final Proje Çalışma Aşamaları
+Görev Dağılımı
+
+######################################
+# GÖREV 1 : Veri setine EDA islemlerini uygulayalım
+######################################
+
+# 1. Genel Resim
+#burda değişken isimleri taşıdığı bilgilere göre yeniden düzenleme yapılması
+# 2. Kategorik Degişken Analizi (Analysis of Categorical Variables)
+# kategorik analizi sonucu sonuçları dikkat çeken değişkenler belirlenmesi
+# 3. Sayısal Degişken Analizi (Analysis of Numerical Variables)
+#2 ve 3 adımlarda inceleme sonucu kategorik ve sayısal değişken türü doğru tanımlanmış mı kontrolü 
+# 4. Hedef Değişken Analizi (Analysis of Target Variable)
+# hedef değişken olarak belirleme aşamasında bu değişken modele göre ön işleme aşamasında nasıl ele alacağız
+# 5. Korelasyon Analizi (Analysis of Correlation)
+# korelasyon analiz sonucu en güçlü pozitif ve negatif korelasyon ilişkisi olan değişkenler hangileri ve korelasyon katsayısı nedir ve banka sektöründe bu bilgi ne işimize yarar

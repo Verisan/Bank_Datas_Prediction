@@ -1,0 +1,33 @@
+6/09/2026 Meeting notes
+
+Hasanın yapacakları:
+
+##DENEGELİ HALE GETİRME DURUMU
+YESlerşn hepsini al
+# no sınıfından yapılacak işlem:
+## no sınıfından (6352,17) (eski müşteri) bu gözlemden 1905
+## no sınıfından (392.868,17) (yeni müşteri) bu gözlemden 3384
+# olacak biçimde   no sınıfnı 5289 gözleme indirgeyelim Dengeleme sorunu ÇÖZÜLDÜ
+
+
+## ayrıyetten test etmek içinde no sınıfından yaklaşık keyfi 1000 gözlem çekilebilir .
+# Bu keyfi gözlemeler modeli eğitmek için kullanılacak noların içinden seçilmeyecek!.
+# Seçilen bu gözlemler modei eğitmek için kullanılmayacak test etmek için kullanılacak.
+
+## Sonuç olarak ilk iş olarak yani eda ya bile başlamadan bank-full_edited.csv veri setini alacağım. 
+## bunun içinden yes olanları alıp bir veri setine ekleyceğim. Bu yeni sete 
+## no sınıfından  ve eski müşteri olanlar içinden rastegele 1905 gözlem alcaz 
+# üstüne  no sınıfından  ve (yeni müşteri) olanların içinden rastegele 3384 gözlem seçeceğiz.
+## elde edilen bu veri setiyle (ki shape'i 10578,17 olacak) EDA'dan başlayarak modellemeye kadar gideceğiz.
+# EDA'da veri tiplerinindoğru giriliğ girlmediğine bak.
+# bu durumda pdays'in model tarafından etksizi elemanmış gibi algılanacağının farkındayız.
+
+
+pdays'den 5 farklı sütun çıkart:
+1.sinin adı previously contacted? pdays=-1 olanlar "no" pdays > -1 yes olacak şekilde içeriği olsun.
+pdays 
+pdays 0-30(30 dahil)olanlar true diğerleri false
+ #"pdays 31 - 90(90 dahil) olanlar true diğerleri false
+ # pdays 91-120(120 dahil)olanlar  true diğerleri false
+ # pdays 121+ üzeri olanlar true diğerleri false
+
